@@ -40,15 +40,15 @@ class Node:
     def __iter__(self):
         return iter(self._children)
 # Example
-if __name__ == '__main__':
-    root = Node(0)
-    child1 = Node(1)
-    child2 = Node(2)
-    root.add_child(child1)
-    root.add_child(child2)
-    # Outputs Node(1),Node(2)
-    for ch in root:
-        print(ch)
+# if __name__ == '__main__':
+#     root = Node(0)
+#     child1 = Node(1)
+#     child2 = Node(2)
+#     root.add_child(child1)
+#     root.add_child(child2)
+#     # Outputs Node(1),Node(2)
+#     for ch in root:
+#         print(ch)
 # 在上面代码中， __iter__() 方法只是简单的将迭代请求传递给内部的 _children
 # 属性。
 

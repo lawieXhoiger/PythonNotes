@@ -39,3 +39,7 @@ if __name__ == '__name__':
     print("="*20)
     for ch in root.depth_first():
         print(ch)
+
+import datetime
+s = datetime.datetime.now()
+print(s)
